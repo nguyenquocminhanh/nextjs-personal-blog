@@ -6,7 +6,7 @@ import { getPostData, getPostsFiles } from "../../helper/posts-util";
 export default function PostDetailPage(props) {
     return <Fragment>
         <Head>
-            <title>{props.post.title}</title>
+            <title>{props.post.title + ' - Minh Nguyen'}</title>
             <meta
                 name="description" 
                 content={props.post.excerpt}>    
